@@ -1,6 +1,6 @@
 ## Generative Domain-based Question-Answer Model & Answer Evaluation System
 
-I am currently engaged in a project centred around the development of a **Generative Domain-based Question-Answer Model & Answer Evaluation System** (1). The objective of this endeavor is to streamline the process of generating contextual questions from slides and books, while also creating an answer evaluation system to aid educators in assessing student responses. 
+I worked on this project centered around the development of a **Generative Domain-based Question-Answer Model & Answer Evaluation System** (1). The objective of this endeavor is to streamline the process of generating contextual questions from slides and books, while also creating an answer evaluation system to aid educators in assessing student responses. 
 
 My approach involves leveraging the capabilities of the pre-trained transformer T5-large model, training it on the RACE dataset. The project targets question generation for students enrolled in the *Introduction to Database System* course, necessitating fine-tuning on the database domain. Given the extensive nature of the RACE dataset, which is sourced from English examinations and publicly available, replication within our domain is unfeasible. Therefore, our methodology commences with fine-tuning on the RACE Middle Dataset. Subsequently, we utilize the tokenizer and model parameters from this fine-tuned model to further train it on our custom dataset.
 
